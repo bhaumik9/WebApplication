@@ -8,7 +8,7 @@ import lombok.Setter;
 public class CustomerNotFound extends RuntimeException {
     String type;
     public CustomerNotFound(String type) {
-        super("Customer not found");
+        super("Customer not found !!!");
         this.type=type;
     }
 }
